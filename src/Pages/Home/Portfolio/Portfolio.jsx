@@ -1,4 +1,5 @@
-import data from "../../data/index.json"
+import data from "../../../data/index.json"
+import "./portfolio.css"
 
 export default function Portfolio() {
    return <section className="portfolio--section" id="MyPortfolio">

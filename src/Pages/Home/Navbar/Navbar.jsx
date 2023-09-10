@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
+import "./navbar.css"
 
 function NavBar() {
    const [navActive, setNavActive] = useState(false);
@@ -47,7 +48,7 @@ function NavBar() {
                   <Link onClick={closeMenu} activeClass="navbar--active--content" spy={true} smooth={true} offset={-70} duration={500} to="heroSection" className="navbar--content">Home</Link>
                </li>
                <li>
-                  <Link onClick={closeMenu} activeClass="navbar--active--content" spy={true} smooth={true} offset={-70} duration={500} to="Portfolio" className="navbar--content">Portfolio</Link>
+                  <Link onClick={closeMenu} activeClass="navbar--active--content" spy={true} smooth={true} offset={-70} duration={500} to="MyPortfolio" className="navbar--content">Portfolio</Link>
                </li>
                <li>
                   <Link onClick={closeMenu} activeClass="navbar--active--content" spy={true} smooth={true} offset={-70} duration={500} to="About" className="navbar--content">About Me</Link>
@@ -55,7 +56,7 @@ function NavBar() {
 
             </ul>
          </div>
-         <Link nClick={closeMenu} activeClass="navbar--active--content" spy={true} smooth={true} offset={-70} duration={500} to="Contact" className="btn btn-outline-primary">Contact Me</Link>
+         <Link onClick={closeMenu} activeClass="navbar--active--content" spy={true} smooth={true} offset={-70} duration={500} to="Contact" className="btn btn-outline-primary">Contact Me</Link>
       </nav>
    )
 }

@@ -1,4 +1,4 @@
-
+import "./heroSection.css"
 
 export default function HeroSection() {
    return (

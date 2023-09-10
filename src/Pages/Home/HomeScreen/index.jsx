@@ -1,7 +1,9 @@
-import About from "../About";
-import HeroSection from "../HeroSection";
-import Portfolio from "../Portfolio";
-import Skills from "../Skills";
+import About from "../About/About";
+import Contact from "../Contact/Contact";
+import Footer from "../Footer/Footer";
+import HeroSection from "../HeroSection/HeroSection";
+import Portfolio from "../Portfolio/Portfolio";
+import Skills from "../Skills/Skills";
 
 export default function Home() {
    return (
@@ -10,6 +12,8 @@ export default function Home() {
          <Skills />
          <About />
          <Portfolio />
+         <Contact />
+         <Footer />
       </>
    )
 }
