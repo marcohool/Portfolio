@@ -14,7 +14,7 @@
 .navbar--items>ul {
    list-style: none;
    display: flex;
-   align-items: flex-start;
+   align-items: flex-end;
    gap: 42.667px;
    text-decoration: none;
 }

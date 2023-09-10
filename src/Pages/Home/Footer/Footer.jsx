@@ -44,7 +44,7 @@ export default function Footer() {
                         smooth={true}
                         offset={-70}
                         duration={500}
-                        to="AboutMe"
+                        to="About"
                         className="text-md"
                      >
                         About Me
