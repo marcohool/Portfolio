@@ -1,0 +1,51 @@
+{
+   "skills": [
+      {
+         "id": "1",
+         "src": "./img/product-chain-1.png",
+         "title": "Front-End",
+         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, similique labore neque voluptatem eos corrupti cumque eligendi necessitatibus mollitia earum pariatur vitae quasi, facere temporibus distinctio numquam dignissimos, suscipit ut?"
+      },
+      {
+         "id": "2",
+         "src": "./img/tag-1.png",
+         "title": "Front-End",
+         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, similique labore neque voluptatem eos corrupti cumque eligendi necessitatibus mollitia earum pariatur vitae quasi, facere temporibus distinctio numquam dignissimos, suscipit ut?"
+      },
+      {
+         "id": "3",
+         "src": "./img/feather-pen-2.png",
+         "title": "UI & UX Design",
+         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, similique labore neque voluptatem eos corrupti cumque eligendi necessitatibus mollitia earum pariatur vitae quasi, facere temporibus distinctio numquam dignissimos, suscipit ut?"
+      },
+      {
+         "id": "4",
+         "src": "./img/feather-pen-1.png",
+         "title": "Webflow Development",
+         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, similique labore neque voluptatem eos corrupti cumque eligendi necessitatibus mollitia earum pariatur vitae quasi, facere temporibus distinctio numquam dignissimos, suscipit ut?"
+      }
+   ],
+   "portfolio": [
+      {
+         "id": "1",
+         "src": "./img/placeholder-imgage-1.png",
+         "title": "Front-End",
+         "description": "Lorem ipsum door sit amet, consectetur adipisicing elit. Rem, similique labore neque voluptatem eos corrupti cumque eligendi necessitatibus mollitia earum pariatur vitae quasi, facere temporibus distinctio numquam dignissimos, suscipit ut?",
+         "link": "View in GitHub"
+      },
+      {
+         "id": "2",
+         "src": "./img/placeholder-imgage-2.png",
+         "title": "Front-End",
+         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, similique labore neque voluptatem eos corrupti cumque eligendi necessitatibus mollitia earum pariatur vitae quasi, facere temporibus distinctio numquam dignissimos, suscipit ut?",
+         "link": "View in GitHub"
+      },
+      {
+         "id": "3",
+         "src": "./img/placeholder-imgage-3.png",
+         "title": "UI & UX Design",
+         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, similique labore neque voluptatem eos corrupti cumque eligendi necessitatibus mollitia earum pariatur vitae quasi, facere temporibus distinctio numquam dignissimos, suscipit ut?",
+         "link": "View in GitHub"
+      }
+   ]
+}
