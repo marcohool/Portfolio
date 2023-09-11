@@ -66,8 +66,14 @@
    top: 1rem;
 }
 
+.hero--social--icon .hero--social {
+   display: grid;
+   grid-template-columns: max-content;
+   row-gap: 1rem;
+}
+
 .hero--img {
-   background: url(../../../../public/img/hero_image.png);
+   background: url(../../../../public/img/hero_image4.jpg);
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
@@ -76,10 +82,20 @@
    justify-self: center;
    width: 300px;
    height: 300px;
+   border: 3px solid;
+   animation: profile--animate 8s ease-in-out infinite 1s;
 }
 
-.hero--social--icon .hero--social {
-   display: grid;
-   grid-template-columns: max-content;
-   row-gap: 1rem;
+@keyframes profile--animate {
+   0% {
+      border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+   }
+
+   50% {
+      border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+   }
+
+   100% {
+      border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+   }
 }
