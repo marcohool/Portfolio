@@ -3,7 +3,7 @@ import "./heroSection.css"
 export default function HeroSection() {
    return (
       <section className="hero section" id="home">
-         <div className="hero--container container grid">
+         <div className="hero--container container">
             <div className="hero--content grid">
                <div className="hero--social">
                   <a href="https://github.com/marcohool" target="_blank" className="hero--social--icon">
@@ -28,4 +28,5 @@ export default function HeroSection() {
       </section>
    )
 }
+
 

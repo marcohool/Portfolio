@@ -103,7 +103,7 @@ p {
 
 /* CSS CLASSES */
 .section {
-  padding: 6rem 0 2rem;
+  padding: 6rem 0 12rem;
 }
 
 .section__subtitle {
@@ -191,7 +191,7 @@ h3 {
   line-height: 24px;
 }
 
-/* Responsive Screens */
+/* Responsive Screens
 @media only screen and (max-width: 1800px) {
   .hero--section--title {
     font-size: 68px;
@@ -316,4 +316,39 @@ h3 {
   .divider {
     margin: 20px;
   }
+} */
+
+/* BREAK POINTS */
+@media screen and (max-width: 1200px) {
+  .container {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  /* body {
+    margin: 0 0 3rem 0;
+  }
+
+  .section {
+    padding: 2rem 0 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .section--subtitle {
+    margin-bottom: 3rem;
+  } */
 }
