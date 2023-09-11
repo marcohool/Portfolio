@@ -101,10 +101,6 @@
 
 /* BREAK POINTS */
 @media screen and (max-width: 1200px) {
-   .hero--content {
-      padding-top: 7rem;
-   }
-
    .hero--subtitle {
       padding-left: 3.75rem;
       margin-bottom: 1rem;
@@ -128,7 +124,6 @@
       grid-template-columns: auto;
       grid-template-rows: repeat(3, 0.25rm);
       align-items: center;
-      padding-top: 0;
    }
 
    .hero--img {
