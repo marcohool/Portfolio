@@ -9,6 +9,7 @@
    top: 0;
    left: 0;
    right: 0;
+   height: 50px;
 }
 
 .navbar--items>ul {
@@ -43,9 +44,9 @@
    height: 1.313rem;
    flex-direction: column;
    justify-content: space-around;
-   position: absolute;
    top: 25px;
    right: 25px;
+   cursor: pointer;
 }
 
 .nav__hamburger__line {
@@ -66,9 +67,6 @@
 
    .navbar--items {
       display: flex;
-   }
-
-   .navbar--items {
       position: absolute;
       display: flex;
       align-items: center;
