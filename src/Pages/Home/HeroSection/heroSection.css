@@ -1,56 +1,85 @@
-.hero--section {
-   display: grid;
-   grid-template-columns: repeat(2, 1fr);
-   padding: 133.333px 200.333px 133.333px;
+/* BUTTONS */
+.button {
+   display: inline-block;
+   background-color: var(--title-color);
+   color: var(--container-color);
+   padding: 1.25rem 2rem;
+   border-radius: 1rem;
+   font-weight: var(--font-medium);
+}
+
+.button:hover {
+   background-color: var(--title-color-dark);
+}
+
+.button__icon {
+   margin-left: var(--mb-0-5);
+}
+
+.button--flex {
+   display: inline-flex;
    align-items: center;
-   justify-content: space-between;
-   gap: 32px;
-   background-color: var(--bg-shade);
 }
 
-.hero--section--content--box {
-   display: flex;
-   flex-direction: column;
-   align-items: flex-start;
-   gap: 32px;
+.hero--content {
+   grid-template-columns: 116px repeat(2, 1fr);
+   padding-top: 5.5rem;
+   column-gap: 2rem;
+   align-items: center;
 }
 
-.hero--section--content {
-   display: flex;
-   flex-direction: column;
-   align-items: flex-start;
-   gap: 21.333px;
+.hero--social {
+   display: grid;
+   grid-template-columns: max-content;
+   row-gap: 1rem;
 }
 
-.hero--section--content--box>button {
-   margin-top: 21.333px;
+.hero--social--icon {
+   font-size: 2rem;
+   color: var(--title-color);
 }
 
-.hero--section--title {
-   color: var(--heading-colour);
-   font-size: 74.667px;
-   font-weight: 700;
-   line-height: 90px;
-   align-self: stretch;
+.hero--social--icon:hover {
+   color: var(--title-color-dark);
 }
 
-.hero--section--title--color {
-   color: var(--primary);
+.hero--title {
+   font-size: 3.5rem;
+   margin-bottom: 0.25rem;
 }
 
-.hero--section--description {
-   color: var(--darkblue);
-   font-size: 24px;
+.hero--subtitle {
+   position: relative;
+   font-size: 1.25rem;
+   padding-left: 5.4rem;
    font-weight: 400;
-   line-height: 36px;
+   margin-bottom: 1rem;
 }
 
-.hero--section--img {
-   display: flex;
+.hero--subtitle::before {
+   content: '';
+   position: absolute;
+   width: 70px;
+   height: 1px;
+   background-color: var(--heading-colour);
+   left: 0;
+   top: 1rem;
+}
+
+.hero--img {
+   background: url(../../../../public/img/hero_image.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   box-shadow: inset 0 0 0 9px rgb(255, 255, 255 /30%);
+   order: 1;
    justify-self: center;
+   width: 300px;
+   height: 300px;
 }
 
-.hero--section--img>img {
-   width: 100%;
-   height: 100%;
+.hero--social--icon .hero--social {
+   display: grid;
+   grid-template-columns: max-content;
+   row-gap: 1rem;
 }
