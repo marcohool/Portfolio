@@ -23,7 +23,7 @@
 
 .hero--content {
    grid-template-columns: 300px repeat(2, 1fr);
-   padding-top: 15%;
+   padding-top: 20%;
    align-items: center;
 }
 

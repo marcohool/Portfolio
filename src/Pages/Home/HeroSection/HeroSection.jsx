@@ -4,7 +4,7 @@ export default function HeroSection() {
    return (
       <section className="hero section" id="home">
          <div className="hero--container container">
-            <div className="hero--content grid">
+            <div className="hero--content grid" id="heroSection">
                <div className="hero--social">
                   <a href="https://github.com/marcohool" target="_blank" className="hero--social--icon">
                      <i className="uil uil-github"></i>

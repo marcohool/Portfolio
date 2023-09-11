@@ -103,7 +103,7 @@ p {
 
 /* CSS CLASSES */
 .section {
-  padding: 6rem 0 12rem;
+  height: 100vh;
 }
 
 .section__subtitle {

@@ -1,7 +1,8 @@
 /* About */
 .about--section {
+   top: 100vh;
    display: grid;
-   padding: 133.3px 85.3px;
+   padding: 18rem 10rem;
    align-items: center;
    gap: 114.6px;
    grid-template-columns: repeat(2, 1fr);
