@@ -17,12 +17,12 @@
    row-gap: 32px;
 }
 
-.container {
+/* .container {
    display: grid;
    grid-template-columns: repeat(2, auto);
    column-gap: 32px;
    row-gap: 32px;
-}
+} */
 
 .contact--label {
    display: flex;
