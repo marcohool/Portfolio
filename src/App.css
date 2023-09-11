@@ -1,10 +1,9 @@
 /* Global CSS */
-
 body {
   margin: 0;
-  font-family: "Roboto", sans-serif;
-  -webkit-font-smoothing: "Roboto", sans-serif;
-  -moz-osx-font-smoothing: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: "Poppins", sans-serif;
+  -moz-osx-font-smoothing: "Poppins", sans-serif;
   font-style: normal;
 }
 
@@ -18,6 +17,9 @@ p {
   margin: 0;
 }
 
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
 :root {
   --primary: #5e3bee;
   --heading-colour: #282938;
@@ -29,7 +31,7 @@ p {
 }
 
 .btn {
-  font-family: "Roboto";
+  font-family: "Poppins";
   display: inline-block;
   padding: 14px 32px;
   font-size: 16px;
