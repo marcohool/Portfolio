@@ -1,10 +1,10 @@
 .hero--container {
-   row-gap: 20vh;
+   row-gap: 35vh;
 }
 
 .hero--content {
    grid-template-columns: 18.75rem repeat(2, 1fr);
-   padding-top: 20%;
+   padding-top: 25%;
    align-items: center;
    gap: 1.5rem;
 }
@@ -68,7 +68,7 @@
 }
 
 .hero--scroll {
-   margin-left: 20.25rem;
+   margin: auto;
 }
 
 .wheel {

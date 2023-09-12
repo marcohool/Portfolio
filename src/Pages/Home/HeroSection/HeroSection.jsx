@@ -25,9 +25,8 @@ export default function HeroSection() {
                            'Marco ', 200,
                            'Marco Bou', 200,
                            'Marco Boutchel', 200,
-                           'Marco Boutchelski', 400,
-                           'Marco Boutchelski 👋', 400
-
+                           'Marco Boutchelski ', 800,
+                           'Marco Boutchelski 👋'
                         ]}
                         speed={12}
                      />
