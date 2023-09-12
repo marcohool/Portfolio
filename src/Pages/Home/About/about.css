@@ -1,14 +1,25 @@
 /* About */
+.hero--section--content {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 21.333px;
+}
+
 .about--section {
-   top: 100vh;
    display: grid;
    padding: 18rem 10rem;
    align-items: center;
-   gap: 114.6px;
+   gap: 4rem;
    grid-template-columns: repeat(2, 1fr);
 }
 
+.about--section--img {
+   display: flex;
+}
+
 .about--section--img>img {
-   width: 100%;
-   height: 100%;
+   margin: auto;
+   width: 60%;
+   height: 60%;
 }
