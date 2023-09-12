@@ -126,7 +126,6 @@ p {
 
 .grid {
   display: grid;
-  gap: 1.5rem;
 }
 
 /* Global CSS End */
@@ -147,6 +146,10 @@ h3 {
   font-size: 24px;
   font-weight: 700;
   line-height: 34px;
+}
+
+a {
+  text-decoration: none;
 }
 
 .text-lg {
@@ -189,6 +192,31 @@ h3 {
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
+}
+
+/* BUTTONS */
+.button {
+  display: inline-block;
+  background-color: var(--title-color);
+  color: var(--container-color);
+  padding: 1.25rem 2rem;
+  border-radius: 1rem;
+  font-weight: var(--font-medium);
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--title-color-dark);
+}
+
+.button--icon {
+  margin-left: var(--mb-0-5);
+}
+
+.button--flex {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
 }
 
 /* Responsive Screens

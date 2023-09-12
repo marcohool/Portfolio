@@ -1,9 +1,12 @@
 import "./heroSection.css"
+import { HiOutlineArrowSmDown } from "react-icons/hi";
+import { Link } from "react-scroll";
+
 
 export default function HeroSection() {
    return (
-      <section className="hero section" id="home">
-         <div className="hero--container container">
+      <section className="hero section" id="hero">
+         <div className="hero--container container grid">
             <div className="hero--content grid" id="heroSection">
                <div className="hero--social">
                   <a href="https://github.com/marcohool" target="_blank" className="hero--social--icon">
@@ -23,6 +26,47 @@ export default function HeroSection() {
                      Contact Me
                   </button>
                </div>
+            </div>
+            <div className="hero--scroll">
+               <Link spy={true} smooth={true} offset={-70} duration={500} to="About" className="hero--scroll--button button--flex">
+                  <svg
+                     width="32px"
+                     height="32px"
+                     class="hero--scroll--mouse"
+                     viewBox="0 0 247 390"
+                     version="1.1"
+                     xmlns="http://www.w3.org/2000/svg"
+                     xmlnsXlink="http://www.w3.org/1999/xlink"
+                     style={{
+                        fillRule: "evenodd",
+                        clipRule: "evenodd",
+                        strokeLinecap: "round",
+                        strokeLinejoin: "round",
+                        strokeMiterlimit: "1.5",
+                     }}
+                  >
+                     <path
+                        class="wheel"
+                        d="M123.359,79.775l0,72.843"
+                        style={{
+                           fill: "none",
+                           stroke: "var(--primary)",
+                           strokeWidth: "20px",
+                        }}
+                     ></path>
+                     <path
+                        id="mouse"
+                        d="M236.717,123.359c0,-62.565 -50.794,-113.359 -113.358,-113.359c-62.565,0 -113.359,50.794 -113.359,113.359l0,143.237c0,62.565 50.794,113.359 113.359,113.359c62.564,0 113.358,-50.794 113.358,-113.359l0,-143.237Z"
+                        style={{
+                           fill: "none",
+                           stroke: "var(--primary)",
+                           strokeWidth: "20px",
+                        }}
+                     ></path>
+                  </svg>
+                  <span className="hero--scroll--name">Scroll Down</span>
+                  <HiOutlineArrowSmDown className="hero--scroll--arrow" />
+               </Link>
             </div>
          </div>
       </section>
