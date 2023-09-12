@@ -21,9 +21,15 @@ export default function HeroSection() {
                   <h1 className="hero--title">
                      <TypeAnimation
                         sequence={[
-                           'Marco Boutchelski'
+                           'Mar', 200,
+                           'Marco ', 200,
+                           'Marco Bou', 200,
+                           'Marco Boutchel', 200,
+                           'Marco Boutchelski', 400,
+                           'Marco Boutchelski 👋', 400
+
                         ]}
-                        speed={10}
+                        speed={12}
                      />
                   </h1>
                   <h3 className="hero--subtitle">Computer Science (BSc) Graduate </h3>
