@@ -5,7 +5,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 export default function HeroSection() {
    return (
-      <section className="hero section" id="hero">
+      <section className="hero--section" id="hero">
          <div className="hero--container container grid">
             <div className="hero--content grid" id="heroSection">
                <div className="hero--social">

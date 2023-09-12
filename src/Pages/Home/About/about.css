@@ -7,8 +7,9 @@
 }
 
 .about--section {
+   max-width: 1800px;
    display: grid;
-   padding: 18rem 10rem;
+   padding: 2.5rem;
    align-items: center;
    gap: 4rem;
    grid-template-columns: repeat(2, 1fr);
@@ -20,6 +21,23 @@
 
 .about--section--img>img {
    margin: auto;
-   width: 60%;
-   height: 60%;
+   width: 100%;
+   height: 100%;
+   max-width: 600px;
+   max-height: 600px;
+}
+
+@media screen and (max-width: 1100px) {
+   .about--section {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      padding-top: 0;
+      padding-bottom: 0;
+   }
+
+   .about--section--img>img {
+      max-width: 500px;
+      max-height: 500px;
+   }
 }
