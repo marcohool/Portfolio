@@ -18,7 +18,7 @@
    display: flex;
    flex-direction: column;
    align-items: flex-start;
-   gap: 21.3px;
+   /* gap: 21.3px; */
 }
 
 .portfolio--section--container {

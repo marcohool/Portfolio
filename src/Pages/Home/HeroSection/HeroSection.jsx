@@ -5,9 +5,9 @@ import { TypeAnimation } from 'react-type-animation';
 
 export default function HeroSection() {
    return (
-      <section className="hero--section" id="hero">
+      <section className="hero--section" id="heroSection">
          <div className="hero--container container grid">
-            <div className="hero--content grid" id="heroSection">
+            <div className="hero--content grid">
                <div className="hero--social">
                   <a href="https://github.com/marcohool" target="_blank" className="hero--social--icon">
                      <i className="uil uil-github"></i>

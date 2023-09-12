@@ -1,27 +1,38 @@
 /* Skills */
 .skills--section {
    display: flex;
-   padding: 149.33px 85.33px;
    flex-direction: column;
-   justify-content: center;
    align-items: flex-start;
-   gap: 106.667px;
+   gap: 5rem;
+   max-width: 1500px;
+}
+
+.skills--container {
+   align-self: flex-start;
+}
+
+.skills--section--container {
+   display: flex;
+   flex-direction: row;
+   align-self: center;
+   max-width: 1500px;
+   gap: 15rem;
+   grid-template-columns: repeat(2, 1fr);
+
+}
+
+.skills--icon {
+   font-size: 80px;
 }
 
 .skills--section--heading {
    color: var(--heading-colour);
-   font-size: 64px;
+   font-size: 56px;
    font-weight: 700;
    line-height: 77px;
+   align-items: flex-start;
 }
 
-.skills--section--container {
-   display: grid;
-   justify-content: center;
-   align-items: flex-start;
-   gap: 42.6px;
-   grid-template-columns: repeat(4, 1fr);
-}
 
 .skills--section--card {
    display: flex;
@@ -31,16 +42,14 @@
    gap: 32px;
    flex: 1 0 0;
    border-radius: 10.6px;
-   background: var(--bg-shade);
+   background: #F0EDE5;
    min-height: 250px;
+   border-bottom: 4px solid transparent;
+   box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
 }
 
 .skills--section--card:hover {
    border-bottom: 4px solid var(--primary);
-}
-
-.skills--section--card:hover .skills--section--description {
-   color: var(--darkblue);
 }
 
 .skills--section--img {
@@ -50,29 +59,55 @@
    align-items: center;
    gap: 13.3px;
    border-radius: 10.6px;
-   background: #fff;
+   background: var(--white);
    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
 }
 
 .skills--section--card--content {
-   display: flex;
+   color: var(--black);
+   display: grid;
    flex-direction: column;
    align-items: flex-start;
-   gap: 32px;
+   gap: 34px;
    align-self: stretch;
+
 }
 
 .skills--section--title {
-   color: var(--heading-colour);
+   color: var(--black);
    font-size: 32px;
    font-weight: 700;
    line-height: 45px;
 }
 
 .skills--section--description {
-   columns: var(--black);
    font-size: 21.3px;
-   font-style: normal;
-   font-weight: 400;
    line-height: 32px;
+}
+
+.skills--section--skills {
+   display: flex;
+   justify-content: center;
+   column-gap: 8rem;
+}
+
+.skills--group {
+   min-width: 12rem;
+   align-items: flex-start;
+   row-gap: 1rem;
+}
+
+.skills--data {
+   display: flex;
+   align-items: center;
+   column-gap: 1.5rem;
+}
+
+
+@media only screen and (max-width: 1400px) {
+   .skills--section--container {
+      display: flex;
+      flex-direction: column;
+   }
+
 }
