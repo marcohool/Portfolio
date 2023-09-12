@@ -1,7 +1,7 @@
 import "./heroSection.css"
 import { HiOutlineArrowSmDown } from "react-icons/hi";
 import { Link } from "react-scroll";
-
+import { TypeAnimation } from 'react-type-animation';
 
 export default function HeroSection() {
    return (
@@ -18,7 +18,14 @@ export default function HeroSection() {
                </div>
                <div className="hero--img"></div>
                <div className="hero--data">
-                  <h1 className="hero--title">Marco Boutchelski</h1>
+                  <h1 className="hero--title">
+                     <TypeAnimation
+                        sequence={[
+                           'Marco Boutchelski'
+                        ]}
+                        speed={10}
+                     />
+                  </h1>
                   <h3 className="hero--subtitle">Computer Science (BSc) Graduate </h3>
                   {/* <p className="hero--description"></p> */}
                   <button className="btn btn-outline-primary">
