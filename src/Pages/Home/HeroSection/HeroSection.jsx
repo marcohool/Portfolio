@@ -18,7 +18,7 @@ export default function HeroSection() {
                </div>
                <div className="hero--img"></div>
                <div className="hero--data">
-                  <h1 className="hero--title">
+                  <h1 className="section--title">
                      <TypeAnimation
                         sequence={[
                            'Mar', 200,

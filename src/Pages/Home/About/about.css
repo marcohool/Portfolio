@@ -9,7 +9,7 @@
 .about--section {
    max-width: 1800px;
    display: grid;
-   padding: 2.5rem;
+   /* padding: 2.5rem; */
    align-items: center;
    gap: 4rem;
    grid-template-columns: repeat(2, 1fr);

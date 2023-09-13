@@ -7,9 +7,9 @@ export default function About() {
             <img src="./img/hero_image4.jpg" alt="About me" />
          </div>
          <div className="hero--section--content--box about--section--box">
-            <p className="section--title">About Me</p>
+            <p className="section--subtitle">About Me</p>
             <div className="hero--section--content">
-               <h1 className="hero--title">
+               <h1 className="section--title">
                   Driven & dedicated tech enthusiast based in Surrey, UK📍
                </h1>
                <p className="about--section--description">I'm Marco Boutchelski, a Computer Science graduate who embarked on a seven-year journey into the world of technology, beginning at the age of 14 and culminating in the achievement of First-Class Honors for my Bachelor's degree in Computer Science from the University of Surrey.

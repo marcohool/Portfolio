@@ -7,8 +7,8 @@ export default function Skills() {
    return (
       <section className="skills--section container">
          <div className="skills--title--container" id="MySkills">
-            <p className="section--title">Skills</p>
-            <h1 className="hero--title">My Expertise</h1>
+            <p className="section--subtitle">Skills</p>
+            <h1 className="section--title">My Expertise</h1>
          </div>
          <div className="skills--section--container">
             <div className="skills--section--card">

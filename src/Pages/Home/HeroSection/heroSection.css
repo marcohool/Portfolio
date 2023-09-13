@@ -18,17 +18,12 @@
 }
 
 .hero--social--icon {
-   font-size: 2rem;
+   font-size: var(--subtitle-font-size);
    color: var(--title-color);
 }
 
 .hero--social--icon:hover {
    color: var(--title-color-dark);
-}
-
-.hero--title {
-   font-size: 3.5rem;
-   margin-bottom: 0.25rem;
 }
 
 .hero--subtitle {
