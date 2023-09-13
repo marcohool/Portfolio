@@ -5,8 +5,8 @@ export default function Portfolio() {
    return <section className="portfolio--section container" id="MyPortfolio">
       <div className="portfolio--container--box">
          <div className="portfolio--container">
-            <p className="sub--title">Recent Projects</p>
-            <h2 className="section--heading">My Portfolio</h2>
+            <p className="section--subtitle">Portfolio</p>
+            <h2 className="section--title">My Recent Projects</h2>
          </div>
          <div>
             <button className="btn btn-primary">
@@ -32,6 +32,11 @@ export default function Portfolio() {
             <div key={index} className="portfolio--section--card">
                <div className="portfolio--section--img">
                   <img src={item.src} alt="Placeholder" />
+               </div>
+               <div className="portfolio--section--skills">
+                  {item.skills.map((skill, skillIndex) => (
+                     <div className="portfolio--skill" key={skillIndex}>{skill}</div>
+                  ))}
                </div>
                <div className="portfolio--section--card--content">
                   <div>

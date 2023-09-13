@@ -1,38 +1,37 @@
 {
-   "skills": [
-      {
-         "id": "1",
-         "src": "./img/product-chain-1.png",
-         "title": "Front-End",
-         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, similique labore neque voluptatem eos corrupti cumque eligendi necessitatibus mollitia earum pariatur vitae quasi, facere temporibus distinctio numquam dignissimos, suscipit ut?"
-      },
-      {
-         "id": "2",
-         "src": "./img/tag-1.png",
-         "title": "Back-End",
-         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, similique labore neque voluptatem eos corrupti cumque eligendi necessitatibus mollitia earum pariatur vitae quasi, facere temporibus distinctio numquam dignissimos, suscipit ut?"
-      }
-   ],
    "portfolio": [
       {
          "id": "1",
-         "src": "./img/placeholder-imgage-1.png",
-         "title": "Front-End",
-         "description": "Lorem ipsum door sit amet, consectetur adipisicing elit. Rem, similique labore neque voluptatem eos corrupti cumque eligendi necessitatibus mollitia earum pariatur vitae quasi, facere temporibus distinctio numquam dignissimos, suscipit ut?",
+         "src": "./img/direct_dialogue.png",
+         "title": "DirectDialogue",
+         "description": "A peer-to-peer multi-party chat application developed in Java incorporating a hybrid P2P architecture to form a scalable and fault tolerant messaging platform.",
+         "skills": [
+            "Java",
+            "JavaFX",
+            "Sockets"
+         ],
          "link": "View in GitHub"
       },
       {
          "id": "2",
-         "src": "./img/placeholder-imgage-2.png",
-         "title": "Front-End",
-         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, similique labore neque voluptatem eos corrupti cumque eligendi necessitatibus mollitia earum pariatur vitae quasi, facere temporibus distinctio numquam dignissimos, suscipit ut?",
+         "src": "./img/stockceo.png",
+         "title": "StockCEO",
+         "description": "Stock tracking bot developed in Python using the discord.py API wrapper, allowing users to view & select stocks to track and set alerts for when said stocks reach a set price.",
+         "skills": [
+            "Python",
+            "discord.py"
+         ],
          "link": "View in GitHub"
       },
       {
          "id": "3",
-         "src": "./img/placeholder-imgage-3.png",
-         "title": "UI & UX Design",
-         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, similique labore neque voluptatem eos corrupti cumque eligendi necessitatibus mollitia earum pariatur vitae quasi, facere temporibus distinctio numquam dignissimos, suscipit ut?",
+         "src": "./img/live-to-eat.png",
+         "title": "Live to Eat",
+         "description": "Creation of a cookbook website using the Ruby on Rails framework. Allows users to view and post different recipies, with the ability to rate each others meals.",
+         "skills": [
+            "Ruby on Rails",
+            "Bulma"
+         ],
          "link": "View in GitHub"
       }
    ]

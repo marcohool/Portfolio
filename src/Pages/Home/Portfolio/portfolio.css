@@ -41,19 +41,26 @@
 .portfolio--section--card {
    display: flex;
    flex-direction: column;
-   align-items: flex-start;
-   gap: 32px;
+   align-items: center;
+   gap: 0.75rem;
    flex: 1 0 0;
-   background: #fff;
-   box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
    cursor: pointer;
-   border-top-left-radius: 12px;
-   border-top-right-radius: 12px;
+   border-radius: 10.6px;
+   background: var(--card);
+   border-bottom: 4px solid transparent;
+   box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
+   align-self: stretch;
+   transition: transform 0.6s ease;
+}
+
+.portfolio--section--card:hover {
+   transform: scale(1.1);
+   /* Increase the size when selected */
 }
 
 .portfolio--section--card--content {
    display: flex;
-   padding: 32px;
+   padding: 0.25rem 1.5rem 1.5rem 1.5rem;
    flex-direction: column;
    align-items: flex-start;
    gap: 32px;
@@ -75,4 +82,31 @@
 
 .portfolio--section--card:hover path {
    stroke: #006b6a;
+}
+
+.portfolio--section--skills {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 1rem;
+}
+
+.portfolio--skill {
+   display: inline-block;
+   padding: 12px 12px;
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 8px;
+   cursor: pointer;
+   text-align: center;
+   text-decoration: none;
+   border-radius: 2px;
+   -webkit-border-radius: 30px;
+   -moz-border-radius: 7px;
+   -ms-border-radius: 7px;
+   -o-border-radius: 7px;
+   color: var(--primary);
+   background-color: var(--card);
+   border: 1.4px solid var(--primary);
 }
