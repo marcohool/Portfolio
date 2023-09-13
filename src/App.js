@@ -3,12 +3,14 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './Pages/HomeScreen';
 import NavBar from './Pages/Home/Navbar/Navbar';
 import './App.css';
+import ScrollBar from "./Pages/Home/Navbar/ScrollBar"
 
 function App() {
   return (
     <div className="App">
       <Router>
         <div>
+          <ScrollBar />
           <NavBar />
           <Routes>
             <Route path="/" element={<Home />}></Route>

@@ -2,7 +2,7 @@ import "./about.css"
 
 export default function About() {
    return (
-      <section id="About" className="about--section container">
+      <section id="About" className="about--section container" >
          <div className="about--section--img">
             <img src="./img/hero_image4.jpg" alt="About me" />
          </div>

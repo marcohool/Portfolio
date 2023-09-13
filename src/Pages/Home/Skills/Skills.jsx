@@ -5,8 +5,8 @@ import { AiOutlineCheckCircle } from 'react-icons/ai'
 
 export default function Skills() {
    return (
-      <section className="skills--section container" id="MySkills">
-         <div className="skills--container">
+      <section className="skills--section container">
+         <div className="skills--container" id="MySkills">
             <p className="section--title">Skills</p>
             <h2 className="skills--section--heading">My Expertise</h2>
          </div>
@@ -82,7 +82,7 @@ export default function Skills() {
                         <div className="skills--data">
                            <AiOutlineCheckCircle />
                            <div>
-                              <h3 className="skill--name">SQL</h3>
+                              <h3 className="skill--name">RDBMS & SQL</h3>
                            </div>
                         </div>
                         <div className="skills--data">
