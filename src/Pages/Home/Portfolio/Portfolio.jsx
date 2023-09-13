@@ -2,14 +2,14 @@ import data from "../../../data/index.json"
 import "./portfolio.css"
 
 export default function Portfolio() {
-   return <section className="portfolio--section" id="MyPortfolio">
+   return <section className="portfolio--section container" id="MyPortfolio">
       <div className="portfolio--container--box">
          <div className="portfolio--container">
             <p className="sub--title">Recent Projects</p>
             <h2 className="section--heading">My Portfolio</h2>
          </div>
          <div>
-            <button className="btn btn-github">
+            <button className="btn btn-primary">
                <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
