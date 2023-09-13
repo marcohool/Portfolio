@@ -6,9 +6,9 @@ import { AiOutlineCheckCircle } from 'react-icons/ai'
 export default function Skills() {
    return (
       <section className="skills--section container">
-         <div className="skills--container" id="MySkills">
+         <div className="skills--title--container" id="MySkills">
             <p className="section--title">Skills</p>
-            <h2 className="skills--section--heading">My Expertise</h2>
+            <h1 className="hero--title">My Expertise</h1>
          </div>
          <div className="skills--section--container">
             <div className="skills--section--card">

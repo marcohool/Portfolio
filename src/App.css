@@ -33,6 +33,8 @@ p {
   --black: #000000;
   --white: #ffffff;
   --background: #DDD0C8;
+  --card: #F0EDE5;
+  --h1-hero-title: 56px;
   --p-text: 20px
 }
 
@@ -343,8 +345,8 @@ a {
 /* BREAK POINTS */
 @media screen and (max-width: 1600px) {
   .container {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+    margin-left: min(1.5rem);
+    margin-right: min(1.5rem);
   }
 }
 
