@@ -1,4 +1,5 @@
 import data from "../../../data/index.json"
+import CardCarousel from "./carousel"
 import "./portfolio.css"
 
 export default function Portfolio() {
@@ -28,7 +29,8 @@ export default function Portfolio() {
          </div>
       </div>
       <div className="portfolio--section--container">
-         {data?.portfolio?.map((item, index) => (
+         <CardCarousel></CardCarousel>
+         {/* {data?.portfolio?.map((item, index) => (
             <div key={index} className="portfolio--section--card">
                <div className="portfolio--section--img">
                   <img src={item.src} alt="Placeholder" />
@@ -65,7 +67,7 @@ export default function Portfolio() {
                   </p>
                </div>
             </div>
-         ))}
+         ))} */}
       </div>
    </section>
 }

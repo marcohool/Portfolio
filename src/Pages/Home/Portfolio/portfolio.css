@@ -1,10 +1,10 @@
 /* Portfolio */
 .portfolio--section {
    display: flex;
-   max-width: 1400px;
+   max-width: 1500px;
    flex-direction: column;
    align-items: flex-start;
-   gap: 80px;
+   gap: 3rem;
 }
 
 .portfolio--container--box {
@@ -19,6 +19,7 @@
    flex-direction: column;
    align-items: flex-start;
    /* gap: 21.3px; */
+   ;
 }
 
 .portfolio--section--container {
@@ -36,6 +37,8 @@
 
 .portfolio--section--img>img {
    width: 100%;
+   border-top-right-radius: 10.6px;
+   border-top-left-radius: 10.6px;
 }
 
 .portfolio--section--card {
@@ -109,4 +112,34 @@
    color: var(--primary);
    background-color: var(--card);
    border: 1.4px solid var(--primary);
+}
+
+
+.styles-module_item-container__a8zaY {
+   padding: 2rem;
+}
+
+.carousel {
+   display: flex;
+   align-items: center;
+   width: 100%;
+}
+
+.carousel div>button {
+   cursor: pointer;
+}
+
+.carousel div>button[data-direction=left] {
+   background: url(https://cdn.dsmcdn.com/web/production/slick-arrow.svg) 50% no-repeat;
+   border: none;
+   height: 200px;
+   position: relative;
+   transform: rotate(180deg);
+}
+
+.carousel div>button[data-direction=right] {
+   background: url(https://cdn.dsmcdn.com/web/production/slick-arrow.svg) 50% no-repeat;
+   border: none;
+   height: 80px;
+   position: relative;
 }
