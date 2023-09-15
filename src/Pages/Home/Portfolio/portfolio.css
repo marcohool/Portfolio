@@ -47,7 +47,7 @@
    align-items: center;
    gap: 0.75rem;
    flex: 1 0 0;
-   cursor: pointer;
+   cursor: grab;
    border-radius: 10.6px;
    background: var(--card);
    border-bottom: 4px solid transparent;
@@ -58,7 +58,6 @@
 
 .portfolio--section--card:hover {
    transform: scale(1.1);
-   /* Increase the size when selected */
 }
 
 .portfolio--section--card--content {
@@ -81,6 +80,7 @@
    border-bottom: 1.33px solid var(--primary);
    padding-bottom: 10.6px;
    font-weight: 600;
+   cursor: pointer;
 }
 
 .portfolio--section--card:hover path {
@@ -101,7 +101,6 @@
    font-style: normal;
    font-weight: 400;
    line-height: 8px;
-   cursor: pointer;
    text-align: center;
    text-decoration: none;
    border-radius: 2px;
@@ -114,9 +113,12 @@
    border: 1.4px solid var(--primary);
 }
 
-
 .styles-module_item-container__a8zaY {
-   padding: 2rem;
+   margin: 2rem 2rem 2rem 2rem;
+}
+
+.styles-module_item-provider__YgMwz {
+   max-width: 100vw;
 }
 
 .carousel {
@@ -132,9 +134,10 @@
 .carousel div>button[data-direction=left] {
    background: url(https://cdn.dsmcdn.com/web/production/slick-arrow.svg) 50% no-repeat;
    border: none;
-   height: 200px;
+   height: 80px;
    position: relative;
    transform: rotate(180deg);
+   margin-right: 10px;
 }
 
 .carousel div>button[data-direction=right] {
@@ -142,4 +145,34 @@
    border: none;
    height: 80px;
    position: relative;
+   margin-left: 10px;
+}
+
+@media only screen and (max-width: 1074px) {
+   .portfolio--container--box {
+      flex-direction: column;
+      gap: 30px;
+   }
+
+   .portfolio--container {
+      align-items: center;
+   }
+}
+
+@media only screen and (max-width: 578px) {
+   .portfolio--section--card {
+      transition: none;
+   }
+
+   .portfolio--section--card:hover {
+      transform: none;
+   }
+
+   .styles-module_item-container__a8zaY {
+      margin: 1rem;
+   }
+
+   .portfolio--section--card--content {
+      padding: 0.5rem;
+   }
 }

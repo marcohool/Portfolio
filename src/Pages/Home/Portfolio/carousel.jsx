@@ -5,8 +5,31 @@ import { Carousel } from '@trendyol-js/react-carousel';
 
 
 const CardCarousel = () => {
+   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+   useEffect(() => {
+      // Update the windowWidth state when the window is resized
+      const handleResize = () => {
+         setWindowWidth(window.innerWidth);
+      };
+
+      window.addEventListener('resize', handleResize);
+
+      // Clean up the event listener when the component unmounts
+      return () => {
+         window.removeEventListener('resize', handleResize);
+      };
+   }, []);
+
+   let showValue = 3;
+   if (windowWidth <= 768) {
+      showValue = 1;
+   } else if (windowWidth <= 1100) {
+      showValue = 2;
+   }
+
    return (
-      <Carousel show={3} slide={1} swiping={true} className='carousel'>
+      <Carousel show={showValue} slide={1} swiping={true} useArrowKeys={true} className='carousel'>
          {data?.portfolio?.map((item, index) => (
             <div key={index} className="portfolio--section--card">
                <div className="portfolio--section--img">
