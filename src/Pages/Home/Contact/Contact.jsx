@@ -3,7 +3,7 @@ import { HiOutlineMail, HiOutlineArrowSmRight } from 'react-icons/hi'
 
 export default function Contact() {
    return (
-      <section id="Contact" className="contact--section section">
+      <section id="Contact" className="contact--section container">
          <div className="contact--titles--container">
             <p className="section--subtitle">Contact Me</p>
             <h2 className="section--title">Get In Touch</h2>

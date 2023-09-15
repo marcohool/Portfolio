@@ -50,7 +50,6 @@
 
 .contact--form--container {
    display: grid;
-
    width: 100%;
    row-gap: 32px;
 }
