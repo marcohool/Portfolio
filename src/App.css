@@ -111,6 +111,11 @@ p {
   background-color: var(--white);
 }
 
+.link--button {
+  font-size: 1.5rem;
+  transition: 0.3s;
+}
+
 /* CSS CLASSES */
 .section {
   height: 100vh;
@@ -163,6 +168,12 @@ h3 {
 
 a {
   text-decoration: none;
+}
+
+input,
+textarea {
+  font-size: 1rem;
+  resize: none;
 }
 
 .text-lg {

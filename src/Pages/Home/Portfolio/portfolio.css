@@ -75,21 +75,13 @@
    text-decoration: none;
    display: flex;
    align-items: center;
-   gap: 0.5rem;
+   gap: 0.25rem;
    border-bottom: 1.33px solid var(--primary);
    padding-bottom: 10.6px;
    font-weight: 600;
    cursor: pointer;
 }
 
-/* .portfolio--section--card:hover path {
-   stroke: #006b6a;
-} */
-
-.link--button {
-   font-size: 1.5rem;
-   transition: 0.3s;
-}
 
 .portfolio--link:hover .link--button {
    transform: translateX(0.5rem);
