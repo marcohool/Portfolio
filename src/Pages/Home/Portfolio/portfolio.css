@@ -18,8 +18,6 @@
    display: flex;
    flex-direction: column;
    align-items: flex-start;
-   /* gap: 21.3px; */
-   ;
 }
 
 .portfolio--section--container {
@@ -76,15 +74,25 @@
 .portfolio--link {
    text-decoration: none;
    display: flex;
-   gap: 16px;
+   align-items: center;
+   gap: 0.5rem;
    border-bottom: 1.33px solid var(--primary);
    padding-bottom: 10.6px;
    font-weight: 600;
    cursor: pointer;
 }
 
-.portfolio--section--card:hover path {
+/* .portfolio--section--card:hover path {
    stroke: #006b6a;
+} */
+
+.link--button {
+   font-size: 1.5rem;
+   transition: 0.3s;
+}
+
+.portfolio--link:hover .link--button {
+   transform: translateX(0.5rem);
 }
 
 .portfolio--section--skills {
