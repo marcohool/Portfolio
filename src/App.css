@@ -45,6 +45,11 @@ p {
   --p-2: 2rem;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 .btn {
   font-family: "DM Sans";
   display: inline-block;
@@ -260,7 +265,7 @@ textarea {
     --section--subtitle: 1.3rem;
     --p-15: 1.5rem;
     --p-2: 2rem;
-    --p-text: 1.25rem;
+    --p-text: 1.1rem;
   }
 
   h1 {

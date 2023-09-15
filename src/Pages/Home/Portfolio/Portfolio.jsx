@@ -10,7 +10,7 @@ export default function Portfolio() {
             <h2 className="section--title">My Recent Projects</h2>
          </div>
          <div>
-            <button className="btn btn-primary">
+            <a className="btn btn-primary" href="https://github.com/marcohool" target="_blank">
                <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -25,7 +25,7 @@ export default function Portfolio() {
                   />
                </svg>
                Visit My GitHub
-            </button>
+            </a>
          </div>
       </div>
       <div className="portfolio--section--container">
