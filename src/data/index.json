@@ -10,7 +10,7 @@
             "JavaFX",
             "Sockets"
          ],
-         "link": "View in GitHub"
+         "link": "https://github.com/marcohool/DirectDialogue"
       },
       {
          "id": "2",
@@ -21,7 +21,7 @@
             "Python",
             "discord.py"
          ],
-         "link": "View in GitHub"
+         "link": "https://github.com/marcohool/StockCEO-II"
       },
       {
          "id": "3",
@@ -32,38 +32,40 @@
             "Ruby on Rails",
             "Bulma"
          ],
-         "link": "View in GitHub"
+         "link": "https://github.com/marcohool/Live-to-Eat"
       },
       {
          "id": "4",
-         "src": "./img/live-to-eat.png",
-         "title": "Live to Eat",
-         "description": "Creation of a cookbook website using the Ruby on Rails framework. Allows users to view and post different recipies, with the ability to rate each others meals.",
+         "src": "./img/image-transfer-protocol.png",
+         "title": "Image Transfer Protocol",
+         "description": "A communication protocol designed in Java to facilitate the seamless transfer of images between a client and a server. Draws inspiration from the widely-used Transmission Control Protocol (TCP).",
          "skills": [
-            "Ruby on Rails",
-            "Bulma"
+            "Java",
+            "Sockets",
+            "TCP & UDP"
          ],
-         "link": "View in GitHub"
+         "link": "https://github.com/marcohool/Image-Transfer-Protocol"
       },
       {
          "id": "5",
-         "src": "./img/live-to-eat.png",
-         "title": "Live to Eat",
-         "description": "Creation of a cookbook website using the Ruby on Rails framework. Allows users to view and post different recipies, with the ability to rate each others meals.",
+         "src": "./img/hangman.png",
+         "title": "Hangman",
+         "description": "Development of a Hangman game utilising the ARM (x32) assembly language. Includes low-level programming concepts such as memory management, system calls & stack management.",
          "skills": [
-            "Ruby on Rails",
-            "Bulma"
+            "Assembley Language",
+            "Bitwise Operations"
          ],
-         "link": "View in GitHub"
+         "link": "https://github.com/marcohool/Hangman"
       },
       {
          "id": "6",
          "src": "./img/live-to-eat.png",
-         "title": "Live to Eat",
-         "description": "Creation of a cookbook website using the Ruby on Rails framework. Allows users to view and post different recipies, with the ability to rate each others meals.",
+         "title": "Navigate",
+         "description": "Full-stack application developed using JavaFX and MySQL to implement a comprehensive Customer Relationship Management (CRM) system.",
          "skills": [
-            "Ruby on Rails",
-            "Bulma"
+            "JavaFX",
+            "MySQL",
+            "RDBMS"
          ],
          "link": "View in GitHub"
       }

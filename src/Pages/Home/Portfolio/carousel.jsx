@@ -47,10 +47,10 @@ const CardCarousel = () => {
                      </h3>
                      <p className="text-md">{item.description}</p>
                   </div>
-                  <p className="text-sm portfolio--link">
-                     {item.link}
+                  <a className="text-sm portfolio--link" target='_blank' href={item.link}>
+                     View in Github
                      <HiOutlineArrowSmRight className="link--button" />
-                  </p>
+                  </a>
                </div>
             </div>
          ))}
