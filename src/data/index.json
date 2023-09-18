@@ -59,7 +59,7 @@
       },
       {
          "id": "6",
-         "src": "./img/live-to-eat.png",
+         "src": "./img/navigate.png",
          "title": "Navigate",
          "description": "Full-stack application developed using JavaFX and MySQL to implement a comprehensive Customer Relationship Management (CRM) system.",
          "skills": [
