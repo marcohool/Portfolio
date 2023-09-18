@@ -58,7 +58,7 @@ export default function Contact() {
                </label>
 
                <div className="submit--button--section">
-                  <button className="btn btn-primary contact--form--btn">Submit</button>
+                  <button className="btn btn-primary contact--form--btn btn-unavailable" disabled>Form Temporarily Unavailable</button>
                </div>
             </form>
          </div>

@@ -99,6 +99,15 @@ ul {
   background-color: var(--background);
 }
 
+.btn-unavailable {
+  color: var(--white);
+  background-color: var(--primary);
+  cursor: not-allowed;
+  pointer-events: none;
+  opacity: 0.6;
+  border: none
+}
+
 .btn-github {
   color: var(--white);
   background-color: var(--github);
