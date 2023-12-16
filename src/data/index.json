@@ -5,11 +5,7 @@
          "src": "./img/direct_dialogue.png",
          "title": "DirectDialogue",
          "description": "A peer-to-peer multi-party chat application developed in Java incorporating a hybrid P2P architecture to form a scalable and fault tolerant messaging platform.",
-         "skills": [
-            "Java",
-            "JavaFX",
-            "Sockets"
-         ],
+         "skills": ["Java", "JavaFX", "Sockets"],
          "link": "https://github.com/marcohool/DirectDialogue"
       },
       {
@@ -17,21 +13,23 @@
          "src": "./img/stockceo.png",
          "title": "StockCEO",
          "description": "Stock tracking bot developed in Python using the discord.py API wrapper, allowing users to view & select stocks to track and set alerts for when said stocks reach a set price.",
-         "skills": [
-            "Python",
-            "discord.py"
-         ],
+         "skills": ["Python", "discord.py"],
          "link": "https://github.com/marcohool/StockCEO-II"
+      },
+      {
+         "id": "7",
+         "src": "./img/uploadai.png",
+         "title": "UploadAI",
+         "description": "Automatically generates and uploads AI generated images to Instagram using prompts from OpenAI's GPT-4 model and image generation from DALL-E 3.",
+         "skills": ["Python", "Docker", "OpenAI"],
+         "link": "https://github.com/marcohool/UploadAI"
       },
       {
          "id": "3",
          "src": "./img/live-to-eat.png",
          "title": "Live to Eat",
          "description": "Creation of a cookbook website using the Ruby on Rails framework. Allows users to view and post different recipies, with the ability to rate each others meals.",
-         "skills": [
-            "Ruby on Rails",
-            "Bulma"
-         ],
+         "skills": ["Ruby on Rails", "Bulma"],
          "link": "https://github.com/marcohool/Live-to-Eat"
       },
       {
@@ -39,11 +37,7 @@
          "src": "./img/image-transfer-protocol.png",
          "title": "Image Transfer Protocol",
          "description": "A communication protocol designed in Java to facilitate the seamless transfer of images between a client and a server. Draws inspiration from the widely-used Transmission Control Protocol (TCP).",
-         "skills": [
-            "Java",
-            "Sockets",
-            "TCP & UDP"
-         ],
+         "skills": ["Java", "Sockets", "TCP & UDP"],
          "link": "https://github.com/marcohool/Image-Transfer-Protocol"
       },
       {
@@ -51,10 +45,7 @@
          "src": "./img/hangman.png",
          "title": "Hangman",
          "description": "Development of a Hangman game utilising the ARM (x32) assembly language. Includes low-level programming concepts such as memory management, system calls & stack management.",
-         "skills": [
-            "Assembley Language",
-            "Bitwise Operations"
-         ],
+         "skills": ["Assembley Language", "Bitwise Operations"],
          "link": "https://github.com/marcohool/Hangman"
       },
       {
@@ -62,12 +53,8 @@
          "src": "./img/navigate.png",
          "title": "Navigate",
          "description": "Full-stack application developed using JavaFX and MySQL to implement a comprehensive Customer Relationship Management (CRM) system.",
-         "skills": [
-            "JavaFX",
-            "MySQL",
-            "RDBMS"
-         ],
-         "link": "View in GitHub"
+         "skills": ["JavaFX", "MySQL", "RDBMS"],
+         "link": "https://github.com/marcohool/Navigate"
       }
    ]
 }
